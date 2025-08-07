@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: myregistry001.azurecr.io/perseverance-project:VERSION
+        image: myregistry.azurecr.io/perseverance-project:VERSION
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
